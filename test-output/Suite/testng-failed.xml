@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.NewCustomerValidations">
+        <methods>
+          <include name="verifyEmailInCorrectForm"/>
+          <include name="verifyPINWithSpecialCharacter"/>
+          <include name="verifyAddressWithoutData"/>
+          <include name="verifyPinNoWithMidSpaces"/>
+          <include name="startTesting"/>
+          <include name="verifyCustomerNameWithSpecialCharacters"/>
+          <include name="verifyPINWithoutData"/>
+          <include name="verifyStateWithSpecialCharacter"/>
+          <include name="verifyEmailAsBlank"/>
+          <include name="verifyPinNoWith4"/>
+          <include name="verifyTelephoneSpecial"/>
+          <include name="tearDown"/>
+          <include name="verifyCityWithNumericData"/>
+          <include name="verifyStateWithoutData"/>
+          <include name="createuserWithData"/>
+          <include name="verifyCustomerNameWithoutData"/>
+          <include name="verifyPinWithFirstCharacterSpace"/>
+          <include name="verifyCustomerNameWithSpace"/>
+          <include name="verifyPINWithCharacterData"/>
+          <include name="verifyCustomerNameWithNumbers"/>
+          <include name="verifyCityWithFirstCharacterSpace"/>
+          <include name="verifyAddressFieldWithSpace"/>
+          <include name="verifyStateWithNumericData"/>
+          <include name="verifyCustomerNameText"/>
+          <include name="verifyTelephoneFirstSpace"/>
+          <include name="verifyCityWithoutData"/>
+          <include name="verifyWithCustomerName"/>
+          <include name="verifyTelephoneMidSpace"/>
+          <include name="verifyTelephoneWithoutData"/>
+          <include name="verifyEmailIDSpaces"/>
+          <include name="verifyCityWithSpecialCharacter"/>
+          <include name="verifyStateWithFirstCharacterSpace"/>
+        </methods>
+      </class> <!-- com.qa.testcases.NewCustomerValidations -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
